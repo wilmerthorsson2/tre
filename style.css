@@ -69,3 +69,23 @@ footer {
         font-size: 1.1rem;
     }
 }
+/* === Affärsidé-box === */
+.box {
+    background: #ffffff;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
