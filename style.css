@@ -89,3 +89,11 @@ footer {
     font-size: 1.2rem;
     line-height: 1.7;
 }
+.burger-img {
+    display: block;
+    max-width: 400px;   /* ändra storlek om du vill */
+    width: 100%;
+    border-radius: 12px;
+    margin: 30px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
