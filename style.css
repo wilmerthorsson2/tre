@@ -194,3 +194,75 @@ footer {
         font-size: 1.15rem;
     }
 }
+/* style.css */
+
+/* Grundinställningar för hela sidan */
+body {
+    background-color: #fdfae6; /* En väldigt ljusgul/beige bakgrund för att vila ögonen */
+    color: #333;               /* Mörkgrå text för bästa läsbarhet */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header/Rubrik-området (Rött) */
+header {
+    background-color: #b32424; /* En djup röd färg */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #e6b800; /* Gul linje under headern */
+}
+
+/* Navigeringsmeny (Grönt) */
+nav {
+    background-color: #2d5a27; /* En skogsgrön färg */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffcc00;            /* Gula länkar */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;              /* Länken blir vit när man håller musen över */
+    text-decoration: underline;
+}
+
+/* Huvudinnehåll */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Knappar (Gult med röd text) */
+button, .button {
+    background-color: #ffcc00; 
+    color: #b32424;
+    border: 2px solid #b32424;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b32424;
+    color: #ffcc00;
+}
+
+/* Footer (Grönt) */
+footer {
+    background-color: #2d5a27;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
